@@ -2,14 +2,60 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="foundation.css">
+  <link rel="stylesheet" type="text/css" href="app.css">
   <title> Team Vincent and Asher's Team Foundation Explanation Page </title>
 </head>
 
 <body>
 
-\<div class="row">
-  <div class="small-2 columns"> here's the first grid! grids are a cool and fun way to organize info </span></div>
-  <div class="small-10 columns">10 here's how you use a grid. you use columns and rows to do stuff and can change the sizes and stuff</div>
+<div class="title-bar">
+  <span class="title-bar-title">Intro to Foundation</span>
+</div>
+
+<br>
+
+<div class="row">
+  <div class="small-2 columns"><img src="http://foundation.zurb.com/assets/img/learn/features/svgs/code-reduction-01.svg"></div>
+  <div class="small-10 columns">This is a grid. It is useful for separating content horizontally. The rest of this content is lorem ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet orci ac diam ornare condimentum quis quis sem. Donec eros quam, consectetur a enim id, porta volutpat turpis. In tincidunt tempor magna. Aenean vel sodales lacus. Vivamus dictum maximus orci, nec pretium sem laoreet eu. Nunc luctus lectus non turpis venenatis mollis. Vivamus sit amet congue augue.</div>
+</div>
+
+<br><br><br>
+
+<div class="row">
+  <div class="small-2 medium-3 large-4 columns">
+    <a href="#0" class="button">This is a button</a>
+  </div>
+  <div class="small-4 medium-3 large-4 columns">
+    These are links to other pages
+    <br>
+    <ul class="pagination" role="navigation" aria-label="Pagination">
+      <li class="disabled">Previous <span class="show-for-sr">page</span></li>
+      <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+      <li><a href="#0" aria-label="Page 2">2</a></li>
+      <li><a href="#0" aria-label="Page 3">3</a></li>
+      <li><a href="#0" aria-label="Page 4">4</a></li>
+      <li class="ellipsis" aria-hidden="true"></li>
+      <li><a href="#0" aria-label="Page 12">12</a></li>
+      <li><a href="#0" aria-label="Next page">Next <span class="show-for-sr">page</span></a></li>
+    </ul>
+  </div>
+  <div class="small-6 large-4 columns">
+    This is a slider
+    <br>
+    <div class="slider" data-slider data-initial-start='50' data-end='200'>
+      <span class="slider-handle"  data-slider-handle role="slider" tabindex="1"></span>
+      <span class="slider-fill" data-slider-fill></span>
+      <input type="hidden">
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="row">
+  <div class="small-2 medium-3 large-4 columns">2/3/4 columns</div>
+  <div class="small-4 medium-3 large-4 columns">4/3/4 columns</div>
+  <div class="small-6 large-4 columns">6/6/4 columns</div>
 </div>
 
 </body>
