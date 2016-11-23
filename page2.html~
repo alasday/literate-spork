@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Team Vincent and Asher's Team Bootstrap Page </title>
+    <link rel = "stylesheet" type="text/css" href="bootstrap.min.css">       
+  </head>
+
+  <body>
+    <div class="row"> 
+      <div class="col-md-7">
+	here is some stuff in a row and also Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque vehicula arcu ac volutpat. Vivamus in diam dui. Mauris aliquam venenatis iaculis. Quisque fermentum massa erat, at egestas sapien ultrices ultricies. Morbi augue orci, convallis sed posuere non, finibus nec mi. Nunc lacus tortor, ultricies ac tellus vitae, consectetur tincidunt nunc. Maecenas finibus urna eros, luctus cursus erat ullamcorper eu. Nam sit amet dolor porta, feugiat velit id, auctor quam. Donec ut nibh malesuada, euismod nulla nec, scelerisque tortor. Morbi sollicitudin bibendum erat, a volutpat nisl volutpat id. </div>
+      <div class="col-md-5">
+	Integer vitae pretium mi. Sed tristique, tellus nec viverra ornare, mauris metus aliquet libero, eget finibus elit elit eget tellus. Nunc vel nisi dolor. Cras sit amet molestie dolor, non feugiat metus. Duis consequat dignissim pellentesque. In vel enim eget tellus lacinia sagittis. In arcu magna, placerat vel cursus vel, imperdiet in nisl. Cras lectus lacus, faucibus et condimentum eget, laoreet eget tellus. Sed a maximus massa. Mauris vitae posuere lacus. Proin vitae diam et urna finibus aliquet id non elit. Vestibulum dictum eros sed est pellentesque, in consequat lectus elementum. Nam eget venenatis justo, sit amet porttitor neque.
+	</div>
+    </div>
+<button type="button" class="btn btn-primary">Blue Button to nowhere</button>
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th>Student</th>
+      <th>Period</th>
+      <th>Class</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Vincent</td>
+      <td>6</td>
+      <td>Calc</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Asher</td>
+      <td>7</td>
+      <td>Latin</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
+    
+  
